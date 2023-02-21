@@ -16,12 +16,12 @@ function checkAirQuality(){
         outputOne.innerHTML = "Moderate";
         outputTwo.innerHTML = "Acceptable quality";
         outputThree.innerHTML = inputPoints.value;
-        document.body.style.backgroundColor = "orange";
+        document.body.style.backgroundColor = "yellow";
     }
     else if (inputPoints.value > 100 && inputPoints.value < 150){
         outputOne.innerHTML = "Unhealthy for sensitve groups";
         outputTwo.innerHTML = "Generale public not likely affected";
         outputThree.innerHTML = inputPoints.value;
-        document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "orange";
     }
 }

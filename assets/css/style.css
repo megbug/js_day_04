@@ -1,3 +1,23 @@
 div {
     text-align: center;
+    font-size: 24px;
+}
+
+div form label, p:nth-of-type(1){
+    display: inline;
+    text-align: left;
+}
+
+div form input {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+input[type=range] {
+    min-width: 500px;
+}
+
+div p {
+    display: block;
 }
